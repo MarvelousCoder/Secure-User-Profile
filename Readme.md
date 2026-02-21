@@ -1,6 +1,9 @@
 # Secure User Profile & Access Control System
 ### Identity Management Microservice
-![alt text](image.png)
+![Home](assets/image1.png)
+![Register](assets/image2.png)
+![Login](assets/image3.png)
+![User Profile](assets/image4.png)
 ## Project Overview
  The Secure User Profile & Access Control System is an identity management microservice designed to demonstrate secure authentication, authorization, and sensitive data protection in a modern web application.The project allows users to:
 * Register with personal credentials and a government-issued identifier
@@ -208,14 +211,15 @@ updatedAt      DateTime
 * Sensitive fields are never stored in plaintext
 --- 
 ## AI Tool Usage Log
-| AI-Assisted Tasks          | Description                                                            | Effectiveness Score (1–5) |
-| -------------------------- | ---------------------------------------------------------------------- |:-------------------------:|
-| JWT Authentication Flow    | Assisted in designing JWT-based login and middleware validation        | 5 |
-| AES-256 Encryption Utility | Generated encryption and decryption utility for sensitive data         | 4 |
-| Prisma Schema Design       | Helped structure database schema and relationships                     | 4 |
-| Jest Unit Tests            | Assisted in writing unit tests for JWT validation and encryption logic | 4 |
-| Debugging ES Module Issues | Provided guidance on import/export and runtime errors                  | 5 |
-| Frontend Integration       | Helped connect React frontend with secure backend APIs                 | 4 |
+| AI-Assisted Tasks | Description | Effectiveness Score (1–5) |
+| :--- | :--- | :---: |
+| JWT Authentication Flow | Assisted in designing JWT-based login and middleware validation | 5 |
+| AES-256 Encryption Utility | Generated encryption and decryption utility for sensitive data | 4 |
+| Prisma Schema Design | Helped structure database schema and relationships | 4 |
+| Jest Unit Tests | Assisted in writing unit tests for JWT validation and encryption logic | 4 |
+| Debugging ES Module Issues | Provided guidance on import/export and runtime errors | 5 |
+| Frontend Integration | Helped connect React frontend with secure backend APIs | 4 |
+| UI Refinement & UX | Integrated Chakra UI and Framer Motion for a high-fidelity "Vault" theme, including real-time Caps Lock detection. | 5 |
 
 --- 
 
@@ -227,9 +231,7 @@ AI tools significantly accelerated development by providing secure boilerplate c
 
 ---
 
-#### Working Video Demo Link: https://drive.google.com/file/d/1w9X3uQrwL4_E8FwziWKh5RseD6nD-HXF/view?usp=drive_link
 
----
 
 ## Notable Techniques Used
 
